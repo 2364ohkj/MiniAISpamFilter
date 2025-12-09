@@ -45,7 +45,7 @@ notebooks/
     * Baseline model implementation.
     * Embedding generation & AI Model training.
     * Evaluation metrics & Visualization.
-* **`report.pdf`**: A PDF document summarizing the project background, methodology, and final results.
+* **`report.pdf`**: A formal report detailing the project objective, methodology comparison (Naïve Baseline vs. AI Pipeline), experimental results, and qualitative error analysis.
 * **`requirements.txt`**: A text file listing all Python libraries needed to run the notebook.
 
 
