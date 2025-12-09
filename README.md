@@ -11,18 +11,11 @@ This project classifies SMS messages as **Ham** (normal) or **Spam** using the H
 
 ## Prerequisites
 
-To run this notebook, you need Python installed along with the following libraries:
+To run this notebook, you need Python installed. Please install the required libraries using the following command:
 
 ```bash
-pip install numpy pandas matplotlib scikit-learn
-pip install datasets sentence-transformers
+pip install -r requirements.txt
 ```
-
-## Usage
-
-1.  Clone the repository or download `MiniAISpamFilter.ipynb`.
-2.  Open the file in **Jupyter Notebook** or **Google Colab**.
-3.  Run the cells sequentially to reproduce the analysis.
 
 ## Methodology & Results
 
@@ -31,14 +24,10 @@ The project evaluates both models on a test set (20% split) using Accuracy, Prec
 ### 1. Naïve Baseline
 * **Method**: Counts word frequencies to find top spam indicators. Checks if any top keyword exists in the message.
 * **Performance**: High precision but lower recall (misses subtle spam).
-    * *Accuracy*: ~94%
-    * *F1-Score (Spam)*: ~0.80
 
 ### 2. AI Pipeline
 * **Method**: Converts text into 384-dimensional dense vectors using a pre-trained Transformer model. Classifies vectors using Logistic Regression.
 * **Performance**: Superior understanding of context and semantics.
-    * *Accuracy*: **~99%**
-    * *F1-Score (Spam)*: **~0.95**
 
 ## Project Structure
 
