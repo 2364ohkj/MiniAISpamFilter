@@ -31,11 +31,23 @@ The project evaluates both models on a test set (20% split) using Accuracy, Prec
 
 ## Project Structure
 
-* `MiniAISpamFilter.ipynb`: The main notebook containing:
+The repository is organized as follows:
+
+```text
+notebooks/
+├── MiniAISpamFilter.ipynb  # Main notebook with data processing, training, and evaluation
+├── README.md               # Project documentation (this file)
+├── report.pdf              # Comprehensive project report and summary
+└── requirements.txt        # List of dependencies required to run the project
+```
+* **`MiniAISpamFilter.ipynb`**: Contains the complete code for:
     * Data loading & preprocessing.
-    * Baseline implementation.
-    * Embedding generation & Model training.
-    * Evaluation metrics & Visualization (Confusion Matrices).
+    * Baseline model implementation.
+    * Embedding generation & AI Model training.
+    * Evaluation metrics & Visualization.
+* **`report.pdf`**: A PDF document summarizing the project background, methodology, and final results.
+* **`requirements.txt`**: A text file listing all Python libraries needed to run the notebook.
+
 
 ## Visualizations
 
