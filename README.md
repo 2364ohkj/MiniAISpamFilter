@@ -16,6 +16,7 @@ To run this notebook, you need Python installed along with the following librari
 ```bash
 pip install numpy pandas matplotlib scikit-learn
 pip install datasets sentence-transformers
+```
 
 ## Usage
 
