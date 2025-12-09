@@ -1,0 +1,15 @@
+# Data loading and processing
+datasets
+pandas
+numpy
+
+# Machine learning and evaluation
+scikit-learn
+
+# Deep learning and NLP models
+torch
+transformers
+sentence-transformers
+
+# Visualization
+matplotlib
